@@ -1,0 +1,226 @@
+@media (min-width:320px) and (max-width:480px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+
+        width: 100%;
+    }
+
+    .center{
+        width: 100%;
+    }
+
+    .nav{
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+        /* overflow: hidden; */
+
+    }
+
+    .logo{
+        width: 70%;
+        line-height: 50px;
+    }
+
+    .icon_nav{
+        display: block;
+        width: 30%;
+        line-height: 50px;
+        color: #69ad31;
+        text-align: center;
+    }
+
+    .logo h1{
+        text-align: center;
+    }
+    .nav_list{
+        width: 100%;
+        margin-left: -70%;
+        height: 300px;
+        overflow: hidden;
+        
+        /* overflow: hidden; */
+        /* height: 300px; */
+
+    }
+
+
+
+    .sub_nav{
+        flex-wrap: wrap;
+        line-height: 50px;
+        /* height: 300px; */
+       
+    }
+
+    .sub_nav li {
+        width: 100%;
+    }
+
+    .icon_nav:hover ~ .nav_list{
+        margin-left: 0%;
+        background-color: rgba(54, 54, 54, .6);
+        
+    }  
+
+    .sub_nav a{
+        width: 100%;
+        line-height: 50px;
+        color: white;
+    }
+
+    .banner_container{
+        height: 50px;
+        background-position: center;
+        
+    }
+
+    .banner_bg{
+        width: 100%;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    
+
+    .banner_sub{
+        width: 950%;
+        padding: 5px;
+    }
+
+    .banner_sub h2{
+        font-size: 20px;
+    }
+
+    .btn{
+        align-self: center;
+        margin-right: 10px;
+        margin: 0 auto;
+    }
+
+    /* about section  */
+    .lft_sec{
+        padding: 0 10px;
+        padding-bottom: 20px;
+    }
+    .lft_sec h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .lft_sec h2::after{
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    
+
+    .about_sec{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about_btn{
+        margin: 0 100px;
+    }
+    .lft_sec{
+     width: 100%;
+    }
+
+    .rgt_sec{
+     width: 100%;
+    }
+
+    /* service Section  */
+
+    .service_main{
+        font-size: 30px;
+    }
+
+    .service_section p{
+        font-size: 14px;
+    }
+
+    .service_card{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub_card{
+        width: 40%;
+        padding: 0;
+    }
+
+    /* Project Gallery  */
+
+    .button{
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    .sub_btn{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .service_main p {
+        line-height: 30px;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .img {
+        width: 40%;
+        margin: 10px;
+    }
+    .service_main h2::after{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Testimonial Section */
+
+    .testimonial_sec{
+        width: 500%;
+    }
+
+    .testimonial{
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    /* Contact Us section  */
+
+    .info{
+        flex-wrap: wrap;
+    }
+
+    .contact_sub{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .contact_sub p{
+        font-size: 12px;
+    }
+
+    .info{
+        margin-bottom: 30px;
+    }
+
+    .message_box form{
+        margin: 0px;
+    }
+
+    .one{
+        width: 70%;
+    }
+
+    .two{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+ 
+}
